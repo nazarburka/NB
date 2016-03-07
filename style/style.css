@@ -1,0 +1,275 @@
+
+/* --------------------БОДІ-------------------- */
+
+.general {
+    width: auto;
+    padding: ;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* --------------------ХЕДЕР-------------------- */
+
+.vid {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+/* --------------------МЕНЮ-------------------- */
+
+#orang a {
+    font-size: 150%;
+}
+
+#myNavbar {
+    font-size: 120%;
+}
+
+#orang a:hover {
+    color: orange;
+    font-weight: 600;
+}
+
+#myNavbar a:hover {
+    color: orange;
+    font-weight: 600;
+}
+
+/* --------------------ІКОНКИ-------------------- */
+
+.circle-block {
+    display: inline-block;
+
+    margin-right: 40px;
+}
+
+.circle-block:hover .icon{
+    border-color: orange;
+}
+.circle-block:hover .name{
+    color: orange;
+}
+
+.icon {
+    color: orange;
+    border-color: #e9e9e9;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.hover-animate {
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/* --------------------Діаграми-------------------- */
+
+
+
+/* --------------------КОНТАКТИ-------------------- */
+
+.blok {
+    width: 100%;
+    height: 100px;
+    padding: 18px;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.flexx {
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+}
+
+
+.windows {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.window {
+    background: orange;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    line-height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 35px;
+}
+
+
+.col2 {
+    height: %; /* Висота */
+    width: %;; /* Ширина */
+
+    margin-top: 40px; /* Поле навколо текста */
+
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    position: ;
+    left: %;
+    top:%;
+}
+.col1 {
+    height: %; /* Висота */
+    width: %;; /* Ширина */
+
+    margin-top: 0px; /* Поле навколо текста */
+
+
+    border-bottom: 1px solid darkgrey;
+    position: ;
+    left: %;
+    top:%;
+}
+
+.logo-page {
+    margin-right: 30px;
+    float: left;
+}
+
+.pad0 {
+    padding: 0px;
+}
+
+.pad2v-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pad30 {
+    padding: 30px;
+}
+
+.lineh td {
+    line-height: 25px; /* міжрядковий інтервал */
+}
+
+.mar0 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.gross500 {
+    font-weight: 600; /* жирність шрифту */
+}
+
+.wid100 {
+    width: 100px;
+}
+
+.contact-form input {
+    width: 100%; /* ширина */
+    line-height: 48px; /* міжрядковий інтервал */
+    padding-left: 18px; /* відступ зліва */
+    padding-right: 18px; /* відступ зправа */
+    border-width: 1px; /* товщина рамки (впливає на ширину блока)*/
+    border-style: solid; /* стиль рамки */
+    margin-bottom: 20px;
+    outline: none; /* колір, стиль, товщина рамки (не впливає на ширину блока)*/
+}
+
+.contact-form textarea {
+     width: 100%;
+     height: 100px;
+     padding: 18px;
+     border-width: 1px;
+     border-style: solid;
+     margin-bottom: 10px;
+     outline: none;
+ }
+
+.contact-form input[type="submit"] {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 38px;
+    float: right;
+    margin: 0;
+    outline: none;
+}
+
+/* --------------------ІКОНКИ-------------------- */
+
+#social ul {
+    overflow: auto;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+#social ul li {
+    list-style-type: none;
+    float: left;
+}
+
+#social ul li a i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    background: #3b5998;
+}
+.fa-linkedin {
+    background: #007bb6;
+}
+.fa-twitter {
+    background: #00aced;
+}
+.fa-google-plus {
+    background: #dd4b39;
+}
+.fa-youtube {
+    background: #ff3132;
+}
+.fa-skype {
+    background: #00aced;
+}
+
+
+#social ul li a i:hover {
+    opacity: .7;
+}
